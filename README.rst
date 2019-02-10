@@ -4,7 +4,7 @@ Template for Scala on Kubernetes/Docker
 
 Hello World example for automated Scala to Docker build (to run directly without any orchestration) or with push to DockerHub and to Kubernetes.
 
-.. image:: https://img.shields.io/badge/scala-k8s-v1.0.0-green.svg
+.. image:: https://img.shields.io/badge/scala_template_for_k8s-v1.0.0-green.svg
         :target: https://github.com/janrock-ylb?tab=repositories
         :alt: Release Status
 
