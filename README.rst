@@ -19,11 +19,11 @@ Usage
 
 2) Edit the example Scala code
 
-3a) sbt clean, assembly -> fat jar build
+3) (option a) sbt clean, assembly -> fat jar build
 
-3b) sbt clean, docker -> docker run build
+3) (option b) sbt clean, docker -> docker run build
 
-3c) sbt clean, dockerBuildAndPush -> docker build and push to DockerHub for k8s pull
+3) (option c) sbt clean, dockerBuildAndPush -> docker build and push to DockerHub for k8s pull
 
 4) Run set of bash scripts
 startpod:
