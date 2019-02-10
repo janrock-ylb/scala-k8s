@@ -15,17 +15,12 @@ Features
 
 Usage
 -----
-1) Install Docker and Kubernetes
-
-2) Edit the example Scala code
-
-3) (option a) sbt clean, assembly -> fat jar build
-
-3) (option b) sbt clean, docker -> docker run build
-
-3) (option c) sbt clean, dockerBuildAndPush -> docker build and push to DockerHub for k8s pull
-
-4) Run set of bash scripts
+- Install Docker and Kubernetes
+- Edit the example Scala code
+- (option a) sbt clean, assembly -> fat jar build
+- (option b) sbt clean, docker -> docker run build
+- (option c) sbt clean, dockerBuildAndPush -> docker build and push to DockerHub for k8s pull
+- Run set of bash scripts
 startpod:
 kubectl create -f scala-k8s_pod.yaml
 
@@ -48,7 +43,7 @@ v1.0: Initial Commit
 
 Requirements
 ------------
-1) JDK8, Scala, Docker, Kubernetes
-2) IntelliJ is ideal (code, sbt console and terminal as one window)
+- JDK8, Scala, Docker, Kubernetes
+- IntelliJ is ideal (code, sbt console and terminal as one window)
 
 More examples will be available soon...
