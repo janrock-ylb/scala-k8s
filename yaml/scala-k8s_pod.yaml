@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: scala-k8s
+  labels:
+    app: scala-k8s
+spec:
+  containers:
+    - name: scala-k8s
+      image: yottalabs/scala-k8s
