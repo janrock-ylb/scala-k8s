@@ -16,10 +16,13 @@ Features
 Usage
 -----
 1) Install Docker and Kubernetes
+
 2) Edit the example Scala code
 
 3) (option a) sbt clean, assembly -> fat jar build
+
 3) (option b) sbt clean, docker -> docker run build
+
 3) (option c) sbt clean, dockerBuildAndPush -> docker build and push to DockerHub for k8s pull
 
 4) Run set of bash scripts
