@@ -17,10 +17,9 @@ Usage
 -----
 1) Install Docker and Kubernetes
 2) Edit the example Scala code
-3) (options)
-sbt clean, assembly -> fat jar build
-sbt clean, docker -> docker run build
-sbt clean, dockerBuildAndPush -> docker build and push to DockerHub for k8s pull
+3a) sbt clean, assembly -> fat jar build
+3b) sbt clean, docker -> docker run build
+3c) sbt clean, dockerBuildAndPush -> docker build and push to DockerHub for k8s pull
 
 4) Run set of bash scripts
 startpod:
